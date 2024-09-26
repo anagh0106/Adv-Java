@@ -18,6 +18,7 @@ public class AgeCookieServlet extends HttpServlet{
 		
 		// Create Cookie
 		Cookie c=new Cookie("age",age);
+		c.setMaxAge(10);
 		
 		res.addCookie(c);
 		

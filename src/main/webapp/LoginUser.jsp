@@ -7,14 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="InputCookieServlet" method="post">
+	<form action="LoginUserServletCookie">
 	
-	FirstName : <input type="text" name="fname"><br><br>
-	<input type="submit" value="Submit">
-	<br>
-	<a href="ViewCookie.jsp">View Cookie</a> <br>
-	<a href="LogoutCookie">Logout</a>
-	
+		UserName : <input type="text" name="user"> <br><br>
+		Password : <input type="password" name="pass"> <br><br>
+		<input type="submit" value="Login">
 	</form>
 </body>
 </html>

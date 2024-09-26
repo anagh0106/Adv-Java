@@ -7,13 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="InputCookieServlet" method="post">
+
+	<form action="AddSessionServlet">
 	
-	FirstName : <input type="text" name="fname"><br><br>
-	<input type="submit" value="Submit">
-	<br>
-	<a href="ViewCookie.jsp">View Cookie</a> <br>
-	<a href="LogoutCookie">Logout</a>
+		FirstName = <input type="text" name="fname"><br><br>
+		<input type="submit" value="Add Session">
 	
 	</form>
 </body>
